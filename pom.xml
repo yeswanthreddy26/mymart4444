@@ -112,5 +112,17 @@
 			</plugin>
 		</plugins>
 	</build>
+	<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.3.2</version>
+            <configuration>
+                <!-- Configuration options -->
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 
 </project>
